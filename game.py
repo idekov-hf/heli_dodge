@@ -27,8 +27,8 @@ surface = pygame.display.set_mode((surfaceWidth, surfaceHeight))
 pygame.display.set_caption('Helicopter')
 clock = pygame.time.Clock()
 
-img1 = pygame.image.load('heli1.png')
-img2 = pygame.image.load('heli2_2.png')
+img1 = pygame.image.load('imgs/heli1.png')
+img2 = pygame.image.load('imgs/heli2.png')
 
 
 def score(count):
