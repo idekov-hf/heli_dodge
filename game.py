@@ -24,7 +24,7 @@ imageHeight = 43
 imageWidth = 100
 
 surface = pygame.display.set_mode((surfaceWidth, surfaceHeight))
-pygame.display.set_caption('Heli Chase')
+pygame.display.set_caption('Heli Dodge')
 clock = pygame.time.Clock()
 
 img1 = pygame.image.load('imgs/heli1_1.png')
