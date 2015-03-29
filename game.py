@@ -24,11 +24,11 @@ imageHeight = 43
 imageWidth = 100
 
 surface = pygame.display.set_mode((surfaceWidth, surfaceHeight))
-pygame.display.set_caption('Helicopter')
+pygame.display.set_caption('Heli Chase')
 clock = pygame.time.Clock()
 
-img1 = pygame.image.load('imgs/heli1.png')
-img2 = pygame.image.load('imgs/heli2.png')
+img1 = pygame.image.load('imgs/heli1_1.png')
+img2 = pygame.image.load('imgs/heli1_2.png')
 
 
 def score(count):
